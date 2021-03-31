@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home" style="background-color: #ffec0c;">
     <v-container>
       <v-card
         elevation="10"
@@ -64,7 +64,7 @@ export default {
     return {
       dialog: false,
       icons: ["mdi-email", "mdi-instagram"],
-    };
+    };w 
   },
   name: "Home",
   components: {
@@ -74,9 +74,6 @@ export default {
 </script>
 
 <style>
-body {
-  background-color: #ffec0c;
-}
 #bannercard {
   margin-top: 100px;
   width: 100%;
